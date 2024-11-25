@@ -1,0 +1,135 @@
+/* Page Layout */
+.signup-section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fa;
+}
+
+/* Container */
+.signup-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+/* Title */
+.signup-heading {
+  font-size: 26px;
+  font-family: "Orbitron", sans-serif;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+/* Form */
+.signup-form-container .signup-form-group {
+  margin-bottom: 20px;
+}
+
+.signup-form-label {
+  font-size: 15px;
+  color: #2c3e50;
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.signup-input {
+  width: calc(100% - 26px);
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.signup-submit-button {
+  width: calc(100% - 12px);
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #27ae60;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-submit-button:hover {
+  background-color: #1e8449;
+}
+
+/* OAuth Section */
+.oauth-signup-section {
+  margin-top: 25px;
+}
+
+.oauth-signup-text {
+  color: #7f8c8d;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.oauth-signup-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.oauth-signup-button {
+  flex: 1;
+  margin: 0 6px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  transition: transform 0.2s;
+}
+
+.signup-google {
+  background-color: #db4437;
+}
+
+.signup-facebook {
+  background-color: #4267b2;
+}
+
+.signup-github {
+  background-color: #333333;
+}
+
+.oauth-signup-button:hover {
+  transform: scale(1.02);
+}
+
+/* Login Redirect */
+.login-redirect {
+  margin-top: 25px;
+}
+
+.login-redirect-text {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.login-redirect-link {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.login-redirect-link:hover {
+  text-decoration: underline;
+}

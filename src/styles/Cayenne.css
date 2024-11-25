@@ -1,0 +1,73 @@
+.cayenne-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+.cayenne-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.cayenne-image-large {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cayenne-info {
+  flex: 1.5;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cayenne-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cayenne-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.specs-title, .features-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007BFF;
+}
+
+.specs-list, .features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.specs-list li, .features-list li {
+  padding: 5px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.cayenne-contact-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.cayenne-contact-button:hover {
+  background-color: #0056b3;
+}

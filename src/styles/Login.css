@@ -1,0 +1,141 @@
+/* Login Page Layout */
+.login-page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+/* Container */
+.login-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Title */
+.login-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.login-heading{
+  font-size: 24px;
+  font-family: "Orbitron", sans-serif;
+  color: #333333;
+  margin-bottom: 0;
+}
+
+/* Form */
+.login-form .form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-size: 16px;
+  color: #333333;
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: calc(100% - 26px);
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.login-form-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #007bff;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form-button:hover {
+  background-color: #0056b3;
+}
+
+/* OAuth Section */
+.oauth-container {
+  margin-top: 20px;
+}
+
+.oauth-text {
+  color: #666666;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.oauth-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.oauth-button {
+  border: none;
+  flex: 1;
+  margin: 0 6px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: transform ease .2s;
+}
+
+.oauth-button.google {
+  background-color: #db4437;
+}
+
+.oauth-button.facebook {
+  background-color: #4267b2;
+}
+
+.oauth-button.github {
+  background-color: #333333;
+}
+
+.oauth-button:hover {
+  transform: scale(1.03);
+}
+
+/* Signup Link */
+.signup-link-container {
+  margin-top: 20px;
+}
+
+.signup-text {
+  font-size: 14px;
+  color: #666666;
+}
+
+.signup-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
