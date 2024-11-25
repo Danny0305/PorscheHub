@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Danny0305/PorscheHub.git/static/css/main.513a00ec.css",
+    "main.js": "/Danny0305/PorscheHub.git/static/js/main.72798dc2.js",
+    "static/js/453.2b440606.chunk.js": "/Danny0305/PorscheHub.git/static/js/453.2b440606.chunk.js",
+    "static/media/2025-Porsche-911-GT3(2).jpg": "/Danny0305/PorscheHub.git/static/media/2025-Porsche-911-GT3(2).f54c82eaa8ecb56fe15f.jpg",
+    "static/media/porsche-911.jpeg": "/Danny0305/PorscheHub.git/static/media/porsche-911.f6a5daa97208565411d9.jpeg",
+    "static/media/2023_porsche_macan.jpeg": "/Danny0305/PorscheHub.git/static/media/2023_porsche_macan.361a9ccbca2e0fc9b453.jpeg",
+    "static/media/2024_porsche_taycan_sedan.jpg": "/Danny0305/PorscheHub.git/static/media/2024_porsche_taycan_sedan.0c3cf113ff257ffcd7b2.jpg",
+    "static/media/2024_porsche_panamera.jpg": "/Danny0305/PorscheHub.git/static/media/2024_porsche_panamera.0bbe50ac6b2b07082873.jpg",
+    "static/media/2024_porsche_cayenne.jpeg": "/Danny0305/PorscheHub.git/static/media/2024_porsche_cayenne.b523af024e6d30122846.jpeg",
+    "static/media/wp13838518-gt4-rs-718-iphone-wallpapers.jpg": "/Danny0305/PorscheHub.git/static/media/wp13838518-gt4-rs-718-iphone-wallpapers.f21bfbd7784ae66a37aa.jpg",
+    "index.html": "/Danny0305/PorscheHub.git/index.html",
+    "main.513a00ec.css.map": "/Danny0305/PorscheHub.git/static/css/main.513a00ec.css.map",
+    "main.72798dc2.js.map": "/Danny0305/PorscheHub.git/static/js/main.72798dc2.js.map",
+    "453.2b440606.chunk.js.map": "/Danny0305/PorscheHub.git/static/js/453.2b440606.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.513a00ec.css",
+    "static/js/main.72798dc2.js"
+  ]
+}
